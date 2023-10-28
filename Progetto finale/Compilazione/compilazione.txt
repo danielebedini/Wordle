@@ -1,0 +1,20 @@
+COMPILAZIONE CON GSON:
+
+(Dalla cartella src)
+javac -cp "./../lib/gson-2.10.jar" ./*.java -d ./../bin
+
+RUNNARE CON GSON:
+
+Windows:
+(Dalla cartella bin)
+java -cp ".;./../lib/gson-2.10.jar" ServerMain
+java -cp ".;./../lib/gson-2.10.jar" ClientMain
+
+macOS:
+(Dalla cartella bin)
+java -cp ".:./../lib/gson-2.10.jar" ServerMain
+java -cp ".:./../lib/gson-2.10.jar" ClientMain
+
+Esecuzione jar:
+java -jar Server.jar
+java -jar Client.jar

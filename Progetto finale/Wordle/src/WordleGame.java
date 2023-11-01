@@ -138,6 +138,11 @@ public class WordleGame implements Runnable{
                             
                             for(Map.Entry<String,User> entry : map.entrySet()) {
                                 User user = entry.getValue();
+                                if(user.getUsername().equalsIgnoreCase(log_username) && user.getIsLogged()){
+                                    out.println("LOGIN: Username is already logged. Try again.");
+                                    userExistsLogin = true;
+                                    break start;
+                                }
                                 if(user.getUsername().equalsIgnoreCase(log_username) && !userExistsLogin){ 
                                     userExistsLogin = true;
                                     out.println("LOGIN: Password:");

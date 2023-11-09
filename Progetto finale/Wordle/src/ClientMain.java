@@ -238,12 +238,12 @@ public class ClientMain {
 	*/
 	public static void readConfig() throws FileNotFoundException, IOException {
 		InputStream input = new FileInputStream(configFile);
-    Properties prop = new Properties();
-    prop.load(input);
-    hostname = prop.getProperty("hostname");
-    port = Integer.parseInt(prop.getProperty("port"));
-    multicastPort = Integer.parseInt(prop.getProperty("multicastPort"));
-    multicastHost = prop.getProperty("multicastHost"); 
-    input.close();
+		Properties prop = new Properties();
+		prop.load(input);
+		hostname = prop.getProperty("hostname");
+		port = Integer.parseInt(prop.getProperty("port"));
+		multicastPort = Integer.parseInt(prop.getProperty("multicastPort"));
+		multicastHost = prop.getProperty("multicastHost"); 
+		input.close();
 	}
 }

@@ -24,15 +24,15 @@
   "dani": {
     "username": "dani",
     "password": "dani",
-    "gamesPlayed": 23,
-    "streak": 6,
-    "totalWins": 19,
+    "gamesPlayed": 24,
+    "streak": 7,
+    "totalWins": 20,
     "triesInGame": 0,
-    "triesLastGame": 1,
-    "lastws": 6,
+    "triesLastGame": 2,
+    "lastws": 7,
     "maxws": 10,
-    "winRate": 82.6086956521739,
-    "guessDistribution": 3.5217391304347827,
+    "winRate": 83.33333333333334,
+    "guessDistribution": 3.4583333333333335,
     "isLogged": false,
     "inStreak": true,
     "canPlay": false,
@@ -61,7 +61,8 @@
       1,
       1,
       1,
-      1
+      1,
+      2
     ]
   }
 }

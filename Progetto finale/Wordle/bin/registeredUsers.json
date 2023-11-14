@@ -1,4 +1,25 @@
 {
+  "laura": {
+    "username": "laura",
+    "password": "laura",
+    "gamesPlayed": 1,
+    "streak": 1,
+    "totalWins": 1,
+    "triesInGame": 0,
+    "triesLastGame": 2,
+    "lastws": 1,
+    "maxws": 1,
+    "winRate": 100.0,
+    "guessDistribution": 2.0,
+    "isLogged": false,
+    "inStreak": true,
+    "canPlay": false,
+    "isPlaying": false,
+    "hasGuessed": true,
+    "triesList": [
+      2
+    ]
+  },
   "mattia": {
     "username": "mattia",
     "password": "mattia",
